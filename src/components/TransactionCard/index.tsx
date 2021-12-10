@@ -16,13 +16,15 @@ interface Category {
   icon: string;
 }
 
+interface Data {
+  title: string;
+  amount: string;
+  category: Category;
+  date: string;
+}
+
 interface Props {
-  data: {
-    title: string;
-    amount: string;
-    category: Category;
-    date: string;
-  }
+  data: Data;
 }
 
 

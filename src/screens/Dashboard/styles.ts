@@ -74,8 +74,10 @@ export const Title = styled.Text`
 //   showsVerticalScrollIndicator: false,
 //   contentContainerStyle: { paddingBottom: getBottomSpace() }
 // })`
-  
 // `
+
+export const TransactionList = styled.FlatList``;
+
 export const LoadingContainer = styled.View`
   flex: 1;
   justify-content: center;
