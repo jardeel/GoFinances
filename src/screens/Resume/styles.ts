@@ -52,3 +52,10 @@ export const Month = styled.Text`
   font-family: ${({ theme }) => theme.fonts.regular};
   font-size: ${RFValue(20)}px;
 `;
+
+
+export const LoadingContainer = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
